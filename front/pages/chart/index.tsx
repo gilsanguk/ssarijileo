@@ -18,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async context => {
   const token = cookies.Authorization;
   if (!token) return { redirect: { destination: '/', permanent: false } };
   const dailyRes = await axios.get(
-    'http://i8b302.p.ssafy.io:8000/api/v1/ranking/daily',
+    'http://i8b302.p.example.io:8000/api/v1/ranking/daily',
     {
       headers: {
         Authorization: token,
@@ -26,7 +26,7 @@ export const getServerSideProps: GetServerSideProps = async context => {
     },
   );
   const weeklyRes = await axios.get(
-    'http://i8b302.p.ssafy.io:8000/api/v1/ranking/weekly',
+    'http://i8b302.p.example.io:8000/api/v1/ranking/weekly',
     {
       headers: {
         Authorization: token,
@@ -34,7 +34,7 @@ export const getServerSideProps: GetServerSideProps = async context => {
     },
   );
   const monthlyRes = await axios.get(
-    'http://i8b302.p.ssafy.io:8000/api/v1/ranking/monthly',
+    'http://i8b302.p.example.io:8000/api/v1/ranking/monthly',
     {
       headers: {
         Authorization: token,

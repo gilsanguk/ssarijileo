@@ -76,7 +76,7 @@ function Index() {
   // api screen
   const getToken = async () => {
     const response = await axios.post(
-      `https://i8b302.p.ssafy.io/openvidu/api/sessions/${storeSessionState.sessionId}/connection`,
+      `https://i8b302.p.example.io/openvidu/api/sessions/${storeSessionState.sessionId}/connection`,
       {},
       {
         headers: { Authorization: 'Basic T1BFTlZJRFVBUFA6c3NhZnk=' },

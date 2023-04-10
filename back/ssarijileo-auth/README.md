@@ -22,7 +22,7 @@
 └── main
     ├── java
     │   └── com
-    │       └── ssafy
+    │       └── example
     │           └── ssarijileo
     │               ├── SsarijileoApplication.java
     │               ├── config

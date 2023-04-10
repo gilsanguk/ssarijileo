@@ -42,7 +42,7 @@ export const getServerSideProps: GetServerSideProps = async context => {
   const token = cookies.Authorization;
   if (!token) {
     const chartRes = await axios.get(
-      'http://i8b302.p.ssafy.io:8000/api/v1/ranking/daily',
+      'http://i8b302.p.example.io:8000/api/v1/ranking/daily',
     );
     const chartItemA: ChartItem[] = chartRes.data.slice(0, 5);
     const chartItemB: ChartItem[] = chartRes.data.slice(5, 10);
@@ -57,7 +57,7 @@ export const getServerSideProps: GetServerSideProps = async context => {
   }
   try {
     const chartRes = await axios.get(
-      'http://i8b302.p.ssafy.io:8000/api/v1/ranking/daily',
+      'http://i8b302.p.example.io:8000/api/v1/ranking/daily',
       {
         headers: {
           Authorization: token,
@@ -68,7 +68,7 @@ export const getServerSideProps: GetServerSideProps = async context => {
     const chartItemB: ChartItem[] = chartRes.data.slice(5, 10);
 
     const rankingRes = await axios.get(
-      'http://i8b302.p.ssafy.io:8000/api/v1/singing-contest/',
+      'http://i8b302.p.example.io:8000/api/v1/singing-contest/',
       {
         headers: {
           Authorization: token,
