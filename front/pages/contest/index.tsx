@@ -26,7 +26,7 @@ export const getServerSideProps: GetServerSideProps = async context => {
   if (!token) return { redirect: { destination: '/', permanent: false } };
   try {
     const videoRes = await axios.get(
-      'http://i8b302.p.ssafy.io:8000/api/v1/singing-contest',
+      'http://i8b302.p.example.io:8000/api/v1/singing-contest',
       {
         headers: {
           Authorization: token,

@@ -49,6 +49,6 @@ spring:
 logging:
   level:
     root: info
-    com.ssafy: debug
+    com.example: debug
     org.springframework.cloud.gateway: debug
     reactor.netty.http.client: debug
