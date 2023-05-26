@@ -238,4 +238,4 @@ https://www.notion.so/7e19bc36f9f54413b33dc1a2f0d3ef46
 
 ### < 시스템 아키텍처 >
 
-<img src="https://user-images.githubusercontent.com/55950992/219535827-12579630-be55-409f-b550-fab1ec591>
+<img src="https://user-images.githubusercontent.com/55950992/219535827-12579630-be55-409f-b550-fab1ec591">
