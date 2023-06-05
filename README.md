@@ -104,6 +104,10 @@ https://www.notion.so/7e19bc36f9f54413b33dc1a2f0d3ef46
 
 <br />
 
+## < 시스템 아키텍처 >
+
+<img src="https://user-images.githubusercontent.com/55950992/219535827-12579630-be55-409f-b550-fab1ec591e51.png">
+
 ## 화면구현
 
 ### < 메인 페이지 >
@@ -234,8 +238,3 @@ https://www.notion.so/7e19bc36f9f54413b33dc1a2f0d3ef46
 <p align="center">
   <img src="https://user-images.githubusercontent.com/55950992/219534514-864e24c0-9f7b-479f-ae26-feaeeaca7316.gif">
 </p>
-
-
-### < 시스템 아키텍처 >
-
-<img src="https://user-images.githubusercontent.com/55950992/219535827-12579630-be55-409f-b550-fab1ec591e51.png">
